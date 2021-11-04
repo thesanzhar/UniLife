@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/icons/sapatest-logo-icon.ico" type="image/x-icon">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+  <!-- <script src="../js/jquery.maskMoney.js" type="text/javascript"></script> -->
+  <title>Маркетинг-план - UniLife</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="header__logo">
+        <img src="img/icons/logo.svg" alt="">
+      </a>
+      <nav class="header__menu">
+        <ul>
+          <li><a href="index.html" class="header__menu_items">Главная</a></li>
+          <li><a href="aboutPage.html" class="header__menu_items">SAUMET</a></li>
+          <li><a href="#" class="header__menu_items">Магазин</a></li>
+          <li><a href="marketingPlan.html" class="header__menu_items header__menu_active">Маркетинг-план</a></li>
+          <li><a href="#" class="header__menu_items">Контакты</a></li>
+        </ul>
+        <button class="header__button_adap">
+          <img src="img/icons/log-in-icon.svg" alt="">
+          <p>Войти</p>
+        </button>
+      </nav>
+      <button class="header__button">
+        <img src="img/icons/log-in-icon.svg" alt="">
+        <p>Войти</p>
+      </button>
+      <div class="header__burger">
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="marketingPlan">
+    <div class="container">
+      <div class="container__header">
+        <a href="#" class="container__rubric">Главная</a>
+        <img src="img/icons/rubric-arrow-right.svg" alt="" class="container__rubric-arrow">
+        <a href="#" class="container__rubric container__rubric_active">Маркетинг-план</a>
+      </div>
+      <div class="marketingPlan__content">
+        <h2 class="title2">Маркетинг-план</h2>
+        <div class="marketingPlan__bonusTypes">
+          <h2>5 видов бонусов</h2>
+          <div class="marketingPlan__bonusTypes_grid">
+            <div class="marketingPlan__bonusTypes_grid_items">
+              <img src="img/icons/bonus-type-1.svg" alt="">
+              <p>Реферальный<br>
+                бонус</p>
+            </div>
+            <div class="marketingPlan__bonusTypes_grid_items">
+              <img src="img/icons/bonus-type-2.svg" alt="">
+              <p>Бинарный<br>
+                Бонус</p>
+            </div>
+            <div class="marketingPlan__bonusTypes_grid_items">
+              <img src="img/icons/bonus-type-3.svg" alt="">
+              <p>Матчинг<br>
+                бонус</p>
+            </div>
+            <div class="marketingPlan__bonusTypes_grid_items">
+              <img src="img/icons/bonus-type-4.svg" alt="">
+              <p>Активационный<br>
+                бонус</p>
+            </div>
+            <div class="marketingPlan__bonusTypes_grid_items">
+              <img src="img/icons/bonus-type-5.png" alt="">
+              <p>Статусный<br>
+                бонус</p>
+            </div>
+          </div>
+          <h2>Бизнес в нашей компании начинается с 4 бизнес пакетов</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mp_businessPackage">
+    <div class="container">
+      <h2 class="title2">Бизнес пакеты</h2>
+      <div class="mp_businessPackage__grid">
+        <div class="mp_businessPackage__grid_items" id="mp_businessPackage__grid_item1">
+          <h2>Старт</h2>
+          <div class="mp_businessPackage__grid_items_text">
+            <p>Получает только реферальный бонус</p>
+            <p>50 pv</p>
+          </div>
+          <button>55 $</button>
+        </div>
+        <div class="mp_businessPackage__grid_items" id="mp_businessPackage__grid_item2">
+          <h2>Эконом</h2>
+          <div class="mp_businessPackage__grid_items_text">
+            <p>Получает все бонусы (бинарный, матчинг, активационный и статусный)</p>
+            <p>100 pv</p>
+          </div>
+          <button>110 $</button>
+        </div>
+        <div class="mp_businessPackage__grid_items" id="mp_businessPackage__grid_item3">
+          <h2>Бизнес</h2>
+          <div class="mp_businessPackage__grid_items_text">
+            <p>Получает все бонусы (бинарный, матчинг, активационный и статусный)</p>
+            <p>200 pv</p>
+          </div>
+          <button>330 $</button>
+        </div>
+          <div class="mp_businessPackage__grid_items" id="mp_businessPackage__grid_item4">
+            <h2>ВИП</h2>
+            <div class="mp_businessPackage__grid_items_text">
+              <p>Получает все бонусы (бинарный, матчинг, активационный и статусный)</p>
+              <p>550 pv</p>
+            </div>
+            <button>1000 $</button>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mp_referalBonus">
+    <div class="container">
+      <h2 class="title2">Реферальный бонус</h2>
+      <h3 class="subtitle">За каждого лично приглашенного партнера, вы получаете <br>
+        от 5 - 15% от объема PV его купленного пакета.</h3>
+      <div class="mp_referalBonus__content">
+        <div class="mp_referalBonus__leftContent">
+          <h3>Если у Вас <span class="text1-blue-color"> пакет старт, эконом или бизнес </span>, то Вы за каждого получаете фиксированный бонус за каждый пакет :</h3>
+          <ul class="mp_referalBonus__content_list">
+            <li>Стартовый пакет <span class="text2-blue-color">6,25$</span> </li>
+            <li>Эконом пакет <span class="text2-blue-color">15$</span> </li>
+            <li>Бизнес пакет <span class="text2-blue-color">45$</span> </li>
+            <li>ВИП пакет <span class="text2-blue-color">150$</span> </li>
+          </ul>
+          <img src="img/referal-bonus-left-img.png" alt="">
+        </div>
+        <div class="mp_referalBonus__line"></div>
+        <div class="mp_referalBonus__rightContent">
+          <h3>Если у вас <span class="text1-blue-color">ВИП</span> пакет , то вы получаете:</h3>
+          <ul class="mp_referalBonus__content_list">
+            <li>Стартовый пакет <span class="text2-blue-color">10$</span> </li>
+            <li>Эконом пакет <span class="text2-blue-color">19$</span> </li>
+            <li>Бизнес пакет <span class="text2-blue-color">58$</span> </li>
+            <li>ВИП пакет <span class="text2-blue-color">190$</span> </li>
+          </ul>
+          <img src="img/referal-bonus-right-img.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mp_binaryBonus">
+    <div class="container">
+      <h2 class="title2">Бинарный бонус</h2>
+      <div class="mp_binaryBonus__content">
+        <h3>Вы получаете от 10 - 21 % (в зависимости от статуса) от объема PV в малой ветке вашей структуры. Малой веткой
+          считается та ветка, где наименьший объем PV.</h3>
+        <div class="mp_binaryBonus__tableContent">
+          <table class="mp_binaryBonus__table">
+            <tr>
+              <th>СТАТУС</th><th>БИНАР</th>
+            </tr>
+            <tr>
+              <td>Менеджер</td><td>10%</td>
+            </tr>
+            <tr>
+              <td>Бронзовый менеджер</td><td>11%</td>
+            </tr>
+            <tr>
+              <td>Серебрянный менеджер</td><td>12%</td>
+            </tr>
+            <tr>
+              <td>Золотой директор</td><td>13%</td>
+            </tr>
+            <tr>
+              <td>Платиновый директор</td><td>15%</td>
+            </tr>
+            <tr>
+              <td>Даймонд</td><td>16%</td>
+            </tr>
+            <tr>
+              <td>Роал даймонд</td><td>18%</td>
+            </tr>
+            <tr>
+              <td>Бранд Амбассадор</td><td>21%</td>
+            </tr>
+            <tr>
+              <td>Вице президент</td><td>3% от МТО</td>
+            </tr>
+          </table>
+        </div>
+        <p>Остаток баллов переходит на следующую неделю.
+          Выплаты по бинару начисляются еженедельно!
+        </p>
+      </div>
+      <img src="img/binary-bonus-img.png" alt="" class="p_binaryBonus__img">
+    </div>
+  </section>
+
+  <section class="mp_matchingBonus">
+    <div class="container">
+      <h2 class="title2">Матчинг бонус</h2>
+      <div class="mp_matchingBonus__content">
+        <h3>В зависимости от вашего статуса, Вы получаете от 15% до 5 %</h3>
+        <div class="mp_matchingBonus__content_text1">
+          <p>Если твой статус:</p>
+          <p><span class="text-bold-500">Менеджер, бронза -  1 линия 15%</strong></p>
+          <p><span class="text-bold-500">Серебро, золото   - 2 линия 10%</span></p>
+          <p><span class="text-bold-500">Платина и выше - 3 линия  5%</span></p>
+        </div>
+        <div class="mp_matchingBonus__content_text2">
+          <p><span class="text-bold-500">Пример:</span></p>
+          <p>Партнеры вашей структуры в 3-х линиях заработали по</p>
+          <p>бинару по 1000$, ваш доход с каждого партнера составит:</p>
+          <p>1 линия 1000$ * 15% = 150$</p>
+          <p>2 линия 1000$ * 10% = 100$</p>
+          <p>3 линия 1000$ * 5% = 50$</p>
+        </div>
+      </div>
+      <img src="img/matching-bonus-img.png" alt="" class="mp_matchingBonus__img">
+    </div>
+    <img src="img/icons/matching-bonus-bg-img1.svg" alt="" class="mp_matchingBonus__bg-img1">
+    <img src="img/icons/matching-bonus-bg-img2.svg" alt="" class="mp_matchingBonus__bg-img2">
+  </section>
+  
+  <section class="mp_activationBonus">
+    <div class="container">
+      <h2 class="title2">Активационный бонус</h2>
+      <div class="mp_activationBonus__content">
+        <p>Активационный бонус - все ваши люди,  должны каждый месяц покупать продукцию в компании. После от каждой стоимости покупки , Вы получаете от 5% -15% кэшбэка  в зависимости от вашего статуса .</p>
+        <img src="img/illustration3.png" alt="" class="mp_activationBonus__img">
+      </div>
+    </div>
+  </section>
+
+  <section class="mp_statusBonus">
+    <div class="container">
+      <h2 class="title2">Статусный бонус</h2>
+      <div class="mp_statusBonus__tableContent">
+        <table class="mp_statusBonus__table">
+          <colgroup>
+            <!-- <col style="width: 40%;">
+            <col style="width: 10%;">
+            <col style="width: 10%;"> -->
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="mp_statusBonus__table_col1">Статус</th>
+              <th class="mp_statusBonus__table_col2">Премия за достижение статуса</th>
+              <th class="mp_statusBonus__table_col3">Месяц</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Менеджер</td>
+              <td class="mp_statusBonus__table_col2"></td>
+              <td class="mp_statusBonus__table_col3"></td>
+            </tr>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Бронзовый менеджер</td>
+              <td class="mp_statusBonus__table_col2">100$</td>
+              <td class="mp_statusBonus__table_col3">2 месяц</td>
+            </tr>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Серебрянный менеджер</td>
+              <td class="mp_statusBonus__table_col2">300$</td>
+              <td class="mp_statusBonus__table_col3">3 месяц</td>
+            </tr>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Золотой директор</td>
+              <td class="mp_statusBonus__table_col2">2100$</td>
+              <td class="mp_statusBonus__table_col3">6 месяц</td>
+            </tr>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Платиновый директор</td>
+              <td class="mp_statusBonus__table_col2">12 000$</td>
+              <td class="mp_statusBonus__table_col3">24 месяц</td>
+            </tr>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Даймонд</td>
+              <td class="mp_statusBonus__table_col2">30 000$</td>
+              <td class="mp_statusBonus__table_col3">30 месяц</td>
+            </tr>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Роал даймонд</td>
+              <td class="mp_statusBonus__table_col2">80 000$</td>
+              <td class="mp_statusBonus__table_col3">40 месяц</td>
+            </tr>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Бранд Амбассадор</td>
+              <td class="mp_statusBonus__table_col2">150 000$</td>
+              <td class="mp_statusBonus__table_col3">50 месяц</td>
+            </tr>
+            <tr>
+              <td class="mp_statusBonus__table_col1">Вице президент</td>
+              <td class="mp_statusBonus__table_col2"> Член совета директоров</td>
+              <td class="mp_statusBonus__table_col3"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <img src="img/illustration4.png" alt="" class="mp_statusBonus__img">
+    </div>
+  </section>
+
+  <section class="mp_referenceScheme">
+    <div class="container">
+      <div class="mp_referenceScheme__content">
+        <div class="title2">Схема в таблице для ознакомления</div>
+        <div class="subtitle">Маркетинг план 3 изменения (без учета ограничений по максимальной выплате зп в неделю-месяц)</div>
+        <div class="mp_referenceScheme__tableContent">
+          <table class="mp_referenceScheme__table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Статус</th>
+                <th>Условия</th>
+                <th>Объем PV по малой ветке</th>
+                <th>% по бинару от PV</th>
+                <th>Премия за достижения статуса</th>
+                <th>Премии пассив</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Менеджер</td>
+                <td>2 лично приглашенных</td>
+                <td>100-1000 pv</td>
+                <td>10%</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Бронзовый менеджер</td>
+                <td>2 лично приглашенных</td>
+                <td>1050-<span class="text1-red-color">2000</span> pv</td>
+                <td>11%</td>
+                <td>100$</td>
+                <td>50$-2 ай</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Серебряный менеджер</td>
+                <td><span class="text1-red-color">Апгрейд до бизнес пакета</span></td>
+                <td>2 050-<span class="text1-red-color">5 000</span> pv</td>
+                <td>12%</td>
+                <td>300$</td>
+                <td>100$-3 ай</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Золотой менеджер</td>
+                <td><span class="text1-red-color">Апгрейд до VIP пакета</span></td>
+                <td>5 050-<span class="text1-red-color">30 000</span> pv</td>
+                <td>13%</td>
+                <td>2100$</td>
+                <td>350$-6 ай</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Платиновый менеджер</td>
+                <td>VIP пакет</td>
+                <td>30 050-<span class="text1-red-color">150 000</span> pv</td>
+                <td>15%</td>
+                <td>12000$</td>
+                <td>500$-24 ай</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Даймонд</td>
+                <td>VIP пакет</td>
+                <td>150 050-<span class="text1-red-color">380 000</span> pv</td>
+                <td>16%</td>
+                <td>30000$</td>
+                <td>1000$-30 ай</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Ройал менеджер</td>
+                <td>VIP пакет</td>
+                <td>380 050-<span class="text1-red-color">750 000</span> pv</td>
+                <td>18%</td>
+                <td>80 000$</td>
+                <td>2000$-40 ай</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Брэнд Амбассадор</td>
+                <td>2-даймонд, 1-Ройал даймонд</td>
+                <td>750 050-<span class="text1-red-color">1 500 000</span> pv</td>
+                <td>21%</td>
+                <td>150 000$</td>
+                <td>3000$-50 ай</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Вице Президент</td>
+                <td>1 амбассадор, 2 ройал даймонд</td>
+                <td>Выше 2 500 000 pv</td>
+                <td>3% от МТО</td>
+                <td>Член совета директоров</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer__up">
+      <div class="container">
+        <a href="#" class="footer__logo"><img src="img/icons/logo.svg" alt=""></a>
+        <div class="footer__social">
+          <a href="#" class="footer__social_items">
+            <img src="img/icons/youtube-icon.svg" alt="">
+            <p>YouTube</p>
+          </a>
+          <a href="#" class="footer__social_items">
+            <img src="img/icons/instagram-icon.svg" alt="">
+            <p>Instagram</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__down">
+      <div class="container">
+        <div class="footer__items">
+          <a href="#">Вопросы и ответы</a>
+          <a href="#">Магазин</a>
+          <a href="#">Бизнес и кодекс</a>
+        </div>
+        <div class="footer__items">
+          <a href="#">Новости</a>
+          <a href="#">Контакты</a>
+          <a href="#">Дистибьюторский договор</a>
+        </div>
+        <div class="footer__developer">
+          <p>Разработано - <a href="#">Bugin.soft</a></p>
+          <p>Все права защищены © 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
